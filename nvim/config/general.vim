@@ -60,26 +60,18 @@ function! WinMove(key)
     endif
 endfunction
 
-nnoremap <silent> <C-h> :call WinMove('h')<CR>
-nnoremap <silent> <C-j> :call WinMove('j')<CR>
-nnoremap <silent> <C-k> :call WinMove('k')<CR>
-nnoremap <silent> <C-l> :call WinMove('l')<CR>
+nnoremap <silent> <C-s>h :call WinMove('h')<CR>
+nnoremap <silent> <C-s>j :call WinMove('j')<CR>
+nnoremap <silent> <C-s>k :call WinMove('k')<CR>
+nnoremap <silent> <C-s>l :call WinMove('l')<CR>
 
 " Tabs
 
-nnoremap tn :tabnew<space>
-nnoremap tk :tabnext<CR>
-nnoremap tj :tabprev<CR>
-nnoremap th :tabfirst<CR>
-nnoremap tl :tablast<CR>
-
-"
-" Vim
-"
-
-nnoremap <leader>st :Term<CR>
-
-nnoremap <leader>av :tabnew $HOME/.config/nvim/config <CR>
+nnoremap <silent> <C-a>n :tabnew<CR>
+nnoremap <silent> <C-a>k :tabnext<CR>
+nnoremap <silent> <C-a>j :tabprev<CR>
+nnoremap <silent> <C-a>h :tabfirst<CR>
+nnoremap <silent> <C-a>l :tablast<CR>
 
 
 "
