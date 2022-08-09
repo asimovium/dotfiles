@@ -50,30 +50,6 @@ let NERDTreeQuitOnOpen=1
 let g:NERDTreeMinimalUI=1
 
 "
-"Hexokinase
-"
-
-" Neovim default
-let g:Hexokinase_highlighters = [ 'backgroundfull' ]
-
-" Patterns to match for all filetypes
-" Can be a comma separated string or a list of strings
-" Default value:
-"let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla,colour_names'
-let g:Hexokinase_optInPatterns = 'full_hex,rgb,rgba,hsl,hsla'
-
-" All possible values
-let g:Hexokinase_optInPatterns = [
-\     'full_hex',
-\     'triple_hex',
-\     'rgb',
-\     'rgba',
-\     'hsl',
-\     'hsla'
-"\     'colour_names'
-\ ]
-
-"
 " Indent
 "
 let g:indentLine_fileTypeExclude = ['startify']

@@ -24,11 +24,6 @@ Plug 'tanvirtin/monokai.nvim'
 " comentar com ctrl+x
 Plug 'preservim/nerdcommenter' 
 
-"
-" Telescope
-"
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0' }
 
 " syntax highlighter
 Plug 'sheerun/vim-polyglot'
@@ -42,7 +37,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'Yggdroot/indentLine'
 
 " Dashboard
-Plug 'goolord/alpha-nvim'
+Plug 'mhinz/vim-startify'
 
 " Motion
 Plug 'easymotion/vim-easymotion'
