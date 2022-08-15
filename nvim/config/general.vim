@@ -60,18 +60,18 @@ function! WinMove(key)
     endif
 endfunction
 
-nnoremap <silent> <C-s>h :call WinMove('h')<CR>
-nnoremap <silent> <C-s>j :call WinMove('j')<CR>
-nnoremap <silent> <C-s>k :call WinMove('k')<CR>
-nnoremap <silent> <C-s>l :call WinMove('l')<CR>
+nnoremap <silent> <C-a>h :call WinMove('h')<CR>
+nnoremap <silent> <C-a>j :call WinMove('j')<CR>
+nnoremap <silent> <C-a>k :call WinMove('k')<CR>
+nnoremap <silent> <C-a>l :call WinMove('l')<CR>
 
 " Tabs
 
-nnoremap <silent> <C-a>n :tabnew<CR>
-nnoremap <silent> <C-a>k :tabnext<CR>
-nnoremap <silent> <C-a>j :tabprev<CR>
-nnoremap <silent> <C-a>h :tabfirst<CR>
-nnoremap <silent> <C-a>l :tablast<CR>
+nnoremap <silent> <C-s>n :tabnew<CR>
+nnoremap <silent> <C-s>k :tabnext<CR>
+nnoremap <silent> <C-s>j :tabprev<CR>
+nnoremap <silent> <C-s>h :tabfirst<CR>
+nnoremap <silent> <C-s>l :tablast<CR>
 
 
 "
